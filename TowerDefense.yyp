@@ -34,6 +34,8 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"spr_floorTile","path":"sprites/spr_floorTile/spr_floorTile.yy",},},
+    {"id":{"name":"spr_towerBalista","path":"sprites/spr_towerBalista/spr_towerBalista.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
