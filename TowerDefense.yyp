@@ -34,8 +34,12 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"spr_castle","path":"sprites/spr_castle/spr_castle.yy",},},
     {"id":{"name":"spr_floorTile","path":"sprites/spr_floorTile/spr_floorTile.yy",},},
-    {"id":{"name":"spr_towerBalista","path":"sprites/spr_towerBalista/spr_towerBalista.yy",},},
+    {"id":{"name":"spr_floorTiles","path":"sprites/spr_floorTiles/spr_floorTiles.yy",},},
+    {"id":{"name":"obj_castle","path":"objects/obj_castle/obj_castle.yy",},},
+    {"id":{"name":"tl_grass","path":"tilesets/tl_grass/tl_grass.yy",},},
+    {"id":{"name":"spr_bricks","path":"sprites/spr_bricks/spr_bricks.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

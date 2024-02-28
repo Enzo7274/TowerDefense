@@ -17,6 +17,8 @@
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_towerBalista","order":1,"path":"sprites/spr_towerBalista/spr_towerBalista.yy",},
+    {"name":"spr_castle","order":3,"path":"sprites/spr_castle/spr_castle.yy",},
+    {"name":"spr_floorTiles","order":2,"path":"sprites/spr_floorTiles/spr_floorTiles.yy",},
+    {"name":"spr_bricks","order":1,"path":"sprites/spr_bricks/spr_bricks.yy",},
   ],
 }
