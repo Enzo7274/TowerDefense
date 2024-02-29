@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_castle",
+  "name": "obj_turret",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_castle2",
-    "path": "sprites/spr_castle2/spr_castle2.yy",
+    "name": "spr_turret",
+    "path": "sprites/spr_turret/spr_turret.yy",
   },
   "spriteMaskId": null,
   "visible": true,
