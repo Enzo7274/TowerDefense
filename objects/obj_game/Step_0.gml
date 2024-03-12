@@ -10,3 +10,16 @@ if(mouse_check_button_pressed(mb_left)){
 	
 }
 */
+global.input_menu_open = mouse_check_button(mb_right);
+if(global.input_menu_open) {
+	scr_menu(
+	mouse_x,
+	mouse_y,
+	[
+	["Build Turret", scr_spawn_turret],
+	["Build Trap", -1],
+	["Exit", -1]
+	],
+	"Choose an building type"
+	)	
+}

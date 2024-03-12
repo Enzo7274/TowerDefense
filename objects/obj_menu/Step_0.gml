@@ -4,13 +4,12 @@ mouseOver = false;
 
 if (point_in_rectangle(mouse_x,mouse_y,x,y,x+width,y+height)){
 	mouseOver = true;
-	if (mxPrev != mouse_x) || (myPrev != mouse_y)
-	{
+	if (mxPrev != mouse_x) || (myPrev != mouse_y)	{
 		var _mouseHoverLine = (mouse_y - y) div heightLine;
-	if !(description == -1) _mouseHoverLine -= 1;
-	if (_mouseHoverLine < 0) _mouseHoverLine = 0;
-	if (_mouseHoverLine > optionsCount - 1) 	_mouseHoverLine = optionsCount - 1;
-	hover = _mouseHoverLine;
+		if !(description == -1) _mouseHoverLine -= 1;
+		if (_mouseHoverLine < 0) _mouseHoverLine = 0;
+		if (_mouseHoverLine > optionsCount - 1) 	_mouseHoverLine = optionsCount - 1;
+		hover = _mouseHoverLine;
 	}
 }
 

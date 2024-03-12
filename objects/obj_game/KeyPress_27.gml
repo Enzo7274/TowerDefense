@@ -2,12 +2,12 @@
 // Você pode escrever seu código neste editor
 
 scr_menu(
-mouse_x, 
-mouse_y,
-[
-["Spawn turret", scr_spawn_turret()],
-["Option B", -1],
-["Option C", -1]
+(room_width/2), 
+room_height/2,
+[	
+["Resume", -1],
+["Options", -1],
+["Quit Game", -1]
 ],
-"Choose an option!"
+"Game Paused"
 );
